@@ -4,17 +4,19 @@ using UnityEngine;
 
 public class TestScript : MonoBehaviour
 {
+    //Editor Vairables
+    [SerializeField]
+    string editorString = "HELLO!!!";
     // Start is called before the first frame update
     void Start()
     {
-        string firstString;
-        string secondString;
-
-        firstString = "You Shall not PASS!!!";
-
-        secondString = "Fly, you fools...";
+        string firstString = "You Shall not PASS!!!";
+        string secondString = "Fly, you fools...";
+        string combinedString = firstString + " " + secondString;
 
         Debug.Log(firstString);
         Debug.Log(secondString);
+        Debug.Log(combinedString);
+        Debug.Log(editorString);
     }
 }
