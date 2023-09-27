@@ -12,7 +12,7 @@ public class TestScript : MonoBehaviour
 
         firstString = "You Shall not PASS!!!";
 
-        secondString = "Fly, you fools..."
+        secondString = "Fly, you fools...";
 
         Debug.Log(firstString);
         Debug.Log(secondString);
